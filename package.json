@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/Thrillisreal/xnemutai-project-2#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.13.8",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
   }
 }
