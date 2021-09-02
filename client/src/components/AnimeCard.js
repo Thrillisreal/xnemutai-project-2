@@ -4,7 +4,7 @@ export default function AnimeCard(props) {
   return (
  <div>
  <div>
-    <img src={props.img} alt="Anime card" />
+    <img src={props.img} alt='' />
 </div>
 <div>
       <h3>{props.name}</h3>
