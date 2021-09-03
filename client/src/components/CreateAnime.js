@@ -27,10 +27,12 @@ export default function CreateAnime(props) {
 
 
 
-  console.log(animeMade);
   return (
-  <div>
-    <form onSubmit={setAnime}>
+  <div className='form'>
+    <form onSubmit={setAnime} className=''>
+    <div>
+   <h3>Img Url:</h3>
+   </div>
       <input
         type="text"
         name="img"
@@ -38,6 +40,9 @@ export default function CreateAnime(props) {
         placeholder="Type Img Url"
         onChange={handleChange}
       />
+      <div>
+   <h3>Name:</h3>
+   </div>
       <input
         type="text"
         name="name"
@@ -45,6 +50,9 @@ export default function CreateAnime(props) {
         placeholder="Type Name"
         onChange={handleChange}
       />
+      <div>
+   <h3>Description:</h3>
+   </div>
       <input
         type="text"
         name="description"
@@ -52,7 +60,7 @@ export default function CreateAnime(props) {
         placeholder="Type Description"
         onChange={handleChange}
       />
-      <button>Submit</button>
+      <button className='button'>Submit</button>
     </form> 
    </div>
   )

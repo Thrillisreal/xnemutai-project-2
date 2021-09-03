@@ -24,7 +24,7 @@ const WatchList = () => {
   return (
     <div className="animes">
       <h2>Watch List</h2>
-    <section className="animecard">
+    <section>
       {animes.map((anime) => (
         <AnimeCard key={anime.id} {...anime} />
       ))}

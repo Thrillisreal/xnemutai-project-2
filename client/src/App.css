@@ -1,14 +1,46 @@
 
-.animes{
- 
+
+
+
+
+
+.form{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+padding-bottom: 50px;
+margin-top: 75px;
+}
+
+
+.button{
+  display: block;
+  margin-top: 50px;
+  padding: 10px 45px;
+}
+
+
+
+
+
+
+.animeinfo{
+ font-size: 20px;
 
 }
+.anime-container{
+  display: flex;
+}
 .animecard{
-  width: 25%;
-  height: 25px;
+ border: 1px solid black;
+ margin-bottom: 10px;
+ width: 200px;
   
 }
 
 img{
   width: 50px;
 }
+
+

@@ -1,21 +1,19 @@
 const { Schema } = require('mongoose')
 
 const Anime = new Schema({
-  Img: {
-  type: String,
-  required: true,
+  img: {
+  type: String
   },
-  Name: { 
+  name: { 
     type: String, 
-    required: true, 
+    required: true,
     unique: true, 
     sparse: true },
 
-  Description: {
+  description: {
     type: String,
     required: true,
   }
-
  },
 { timestamps: true }
 )
