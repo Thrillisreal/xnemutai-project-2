@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-// import { deleteAnime } from '../../../controllers/AnimeController'
+
 
 
 export default function AnimeCard(props) {

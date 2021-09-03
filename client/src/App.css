@@ -1,8 +1,27 @@
 
 
+.usertitle{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.userinput{
+  padding: 10px 15px;
+}
+
+.userform{
+margin: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 
 
+.userbutton{
+  display:block;
+  margin-left: 50px;
+}
 
 .form{
 display: flex;
@@ -11,6 +30,8 @@ align-items: center;
 border: 1px solid black;
 padding-bottom: 50px;
 margin-top: 75px;
+background-color: black;
+color: white;
 }
 
 
