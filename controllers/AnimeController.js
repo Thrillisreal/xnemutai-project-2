@@ -1,6 +1,7 @@
 const { Anime } = require('../models')
 
 const createAnime = async (req,res)=> {
+  console.log(req.body);
   try{
     //making new object
   const newAnime = await new Anime(req.body)
