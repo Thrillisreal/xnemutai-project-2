@@ -10,7 +10,7 @@ export default function Anime(props) {
       <ol>Xnemutai</ol>
     </nav>
   <CreateAnime {...props}/>
-  <footer className="animefooter">@Micah</footer>
+  <footer className="watchfooter">@Micah</footer>
   </div>
   )
 }

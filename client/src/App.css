@@ -73,13 +73,9 @@ background-repeat: no-repeat;
 }
 
 .form{
-/* background-image: url('https://www.fortressofsolitude.co.za/wp-content/uploads/2019/05/The-15-Most-Powerful-Anime-Characters-Of-All-Time-scaled.jpg');
-background-position: contain;
-background-repeat: no-repeat; */
 display: flex;
 justify-content: center;
 align-items: center;
-/* padding-bottom: 150px; */
 color: white;
 font-family: Bubblegum Sans;
 margin-left: 100px;
@@ -104,11 +100,6 @@ margin-right: 100px;
   padding: 10px 90px;
 }
 
-
-.animeinfo{
- font-size: 20px;
-
-}
 .anime-container{
   display: flex;
 }
@@ -133,17 +124,45 @@ margin-right: 100px;
 
 
 /*watchlist*/
-
+.animeinfo{
+ font-size: 20px;
+}
 .animecard{
- border: 1px solid black;
- margin-bottom: 10px;
- width: 200px;
- display: flex;
- justify-content: center;
- align-items: center;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 15px;
+ margin-right: 50px;
+ height: 400px;
 } 
 
 .watchlistbtn{
   align-items: center;
+  background-color: orange;
 }
+.anime-container{
+  width: 500px;
+  display: flex;
+  float: right;
+  font-family: Bubblegum Sans;  
+}
+
+.watchfooter{
+  font-family: Bubblegum Sans;
+  font-size: 20px;
+  margin-top: 900px;
+  background-color: orange;
+  padding: 28px;
+  text-align: center;
+}
+
+.watchlist{
+  text-align: center;
+  font-size: 50px;
+  font-family: Bubblegum Sans;
+}
+
 

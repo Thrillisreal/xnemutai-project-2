@@ -33,7 +33,7 @@ export default function CreateAnime(props) {
       <h2>Welcome!!!!</h2>
     </div>
     <div className="animetitle">
-      <h2>Create Your Own Anime Card</h2>
+      <h2>Type Your Favorite Anime Show</h2>
     </div>
   <div className='form'>
     <form onSubmit={setAnime} >

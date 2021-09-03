@@ -17,6 +17,7 @@ export default function AnimeCard(props) {
   }
 
   return (
+
   <div className='anime-container'>
  <div className='animecard'>
  <div>
@@ -28,6 +29,7 @@ export default function AnimeCard(props) {
       <button className='watchlistbtn' onClick={()=>deleteAnimeCard(props._id)}>Delete</button>
 </div>
 </div>
+{/* <footer className="animefooter">@Micah</footer> */}
 </div>
   )
 }
