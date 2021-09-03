@@ -28,6 +28,13 @@ export default function CreateAnime(props) {
 
 
   return (
+    <div className="animeback">
+      <div className="animetitle">
+      <h2>Welcome!!!!</h2>
+    </div>
+    <div className="animetitle">
+      <h2>Create Your Own Anime Card</h2>
+    </div>
   <div className='form'>
     <form onSubmit={setAnime} >
     <div>
@@ -60,8 +67,9 @@ export default function CreateAnime(props) {
         placeholder="Type Description"
         onChange={handleChange}
       />
-      <button className='button'>Submit</button>
+      <button className='button'>CREATE</button>
     </form> 
+   </div>
    </div>
   )
 }

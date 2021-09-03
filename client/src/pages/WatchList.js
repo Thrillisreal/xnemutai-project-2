@@ -22,13 +22,20 @@ const WatchList = () => {
 
 
   return (
-    <div className="animes">
+    <div>
+      <div>
+    <nav className="logo">
+      <ol>Xnemutai</ol>
+    </nav>
+    </div>
       <h2>Watch List</h2>
     <section>
       {animes.map((anime) => (
         <AnimeCard key={anime.id} {...anime} />
       ))}
     </section>
+
+    <footer className="animefooter">@Micah</footer>
   </div>
   
   

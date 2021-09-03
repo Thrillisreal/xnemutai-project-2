@@ -2,16 +2,19 @@
 
 .logo{
   font-size: 20px;
+  background-color: orange;
+  padding: 1px;
+  width: 100%;
+  font-family: Bubblegum Sans;
 }
 
 .userContainer{
   background-image: url('https://shonengamez.com/wp-content/uploads/2014/07/picture-5.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: 100px;
-  margin-right: 100px;
   font-family: Bubblegum Sans;
   color: black;
+  width: 100%;
 }
 
 .usertitle{
@@ -31,7 +34,7 @@ display: block;
 justify-content: center;
 align-items: center;
 text-align: center;
-height: 405px;
+height: 450px;
 }
 
 
@@ -42,21 +45,45 @@ height: 405px;
   border-radius: 5px;
   padding: 10px 15px;
   margin: 150px auto;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.userButton:hover{
+  background-color: white;
+  color: orange;
 }
 
 
 
 
 /*Anime*/
+.animetitle{
+  font-family: Bubblegum Sans;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  background-color: white;
+}
+
+.animeback{
+background-image: url('https://www.fortressofsolitude.co.za/wp-content/uploads/2019/05/The-15-Most-Powerful-Anime-Characters-Of-All-Time-scaled.jpg');
+background-position: contain;
+background-repeat: no-repeat;
+}
 
 .form{
+/* background-image: url('https://www.fortressofsolitude.co.za/wp-content/uploads/2019/05/The-15-Most-Powerful-Anime-Characters-Of-All-Time-scaled.jpg');
+background-position: contain;
+background-repeat: no-repeat; */
 display: flex;
 justify-content: center;
 align-items: center;
-padding-bottom: 50px;
-margin-top: 75px;
-background-color: black;
+/* padding-bottom: 150px; */
 color: white;
+font-family: Bubblegum Sans;
+margin-left: 100px;
+margin-right: 100px;
 }
 
 
@@ -64,10 +91,17 @@ color: white;
   display: block;
   margin-top: 45px;
   padding: 10px 45px;
-
+  font-family: Bubblegum Sans;
+  align-self: center;
+  background-color: orange;
+  border-radius: 5px;
+}
+.button:hover{
+  background-color: white;
+  color: orange;
 }
 .animeinput{
-  
+  padding: 10px 90px;
 }
 
 
@@ -78,15 +112,38 @@ color: white;
 .anime-container{
   display: flex;
 }
+
+.animelogo{
+  font-family: Bubblegum Sans;
+  font-size: 20px;
+  padding: 1px;
+  background-color: orange;
+  margin-bottom: 70px;
+  
+}
+
+.animefooter{
+  font-family: Bubblegum Sans;
+  font-size: 20px;
+  margin-top: 105px;
+  background-color: orange;
+  padding: 28px;
+  text-align: center;
+}
+
+
+/*watchlist*/
+
 .animecard{
  border: 1px solid black;
  margin-bottom: 10px;
  width: 200px;
-  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} 
+
+.watchlistbtn{
+  align-items: center;
 }
-
-
-
-
-
 

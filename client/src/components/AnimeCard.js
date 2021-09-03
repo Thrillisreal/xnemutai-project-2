@@ -25,7 +25,7 @@ export default function AnimeCard(props) {
 <div className='animeinfo'>
       <h3>{props.name}</h3>
       <p>{props.description}</p>
-      <button onClick={()=>deleteAnimeCard(props._id)}>Delete</button>
+      <button className='watchlistbtn' onClick={()=>deleteAnimeCard(props._id)}>Delete</button>
 </div>
 </div>
 </div>

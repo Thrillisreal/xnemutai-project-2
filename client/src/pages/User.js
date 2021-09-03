@@ -28,9 +28,12 @@ export default function UserName(props) {
 
 return(
   <div className="userContainer">
+    <div>
+      <div>
     <nav className="logo">
       <ol>Xnemutai</ol>
     </nav>
+    </div>
     <div className="usertitle">
       <h2>Who Are You?</h2>
       </div>
@@ -46,6 +49,8 @@ return(
     <button className='userButton'>Submit</button>
 
     </form>
+    <footer className="animefooter">@Micah</footer>
+    </div>
   </div>
 
 )
