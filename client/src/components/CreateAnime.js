@@ -29,11 +29,11 @@ export default function CreateAnime(props) {
 
   return (
   <div className='form'>
-    <form onSubmit={setAnime} className=''>
+    <form onSubmit={setAnime} >
     <div>
    <h3>Img Url:</h3>
    </div>
-      <input
+      <input className="animeinput"
         type="text"
         name="img"
         value={animeMade.img}
@@ -43,7 +43,7 @@ export default function CreateAnime(props) {
       <div>
    <h3>Name:</h3>
    </div>
-      <input
+      <input className="animeinput"
         type="text"
         name="name"
         value={animeMade.name}
@@ -53,7 +53,7 @@ export default function CreateAnime(props) {
       <div>
    <h3>Description:</h3>
    </div>
-      <input
+      <input className="animeinput"
         type="text"
         name="description"
         value={animeMade.description}

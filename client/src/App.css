@@ -1,33 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
+.logo{
+  font-size: 20px;
+}
+
+.userContainer{
+  background-image: url('https://shonengamez.com/wp-content/uploads/2014/07/picture-5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Bubblegum Sans;
+  color: black;
+}
 
 .usertitle{
   text-align: center;
-  margin-top: 100px;
+  font-size: 50px;
+  
 }
 
 .userinput{
   padding: 10px 15px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .userform{
-margin: 200px;
-display: flex;
+display: block;
 justify-content: center;
 align-items: center;
+text-align: center;
+height: 405px;
 }
 
 
 
-.userbutton{
-  display:block;
-  margin-left: 50px;
+.userButton{
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 150px auto;
 }
+
+
+
+
+/*Anime*/
 
 .form{
 display: flex;
 justify-content: center;
 align-items: center;
-border: 1px solid black;
 padding-bottom: 50px;
 margin-top: 75px;
 background-color: black;
@@ -37,13 +62,13 @@ color: white;
 
 .button{
   display: block;
-  margin-top: 50px;
+  margin-top: 45px;
   padding: 10px 45px;
+
 }
-
-
-
-
+.animeinput{
+  
+}
 
 
 .animeinfo{
@@ -60,8 +85,8 @@ color: white;
   
 }
 
-img{
-  width: 50px;
-}
+
+
+
 
 

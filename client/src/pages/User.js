@@ -27,11 +27,15 @@ export default function UserName(props) {
 
 
 return(
-  <div>
+  <div className="userContainer">
+    <nav className="logo">
+      <ol>Xnemutai</ol>
+    </nav>
     <div className="usertitle">
-      <h2>CREATE YOUR USERNAME!!!</h2>
+      <h2>Who Are You?</h2>
       </div>
     <form onSubmit={newUser} className="userform">
+      <h2>Create UserName:</h2>
     <input className='userinput'
         type="text"
         name="userName"
@@ -39,7 +43,7 @@ return(
         placeholder="Create Username"
         onChange={handleChange}
       />
-    <button className='userbutton'>Submit</button>
+    <button className='userButton'>Submit</button>
 
     </form>
   </div>
