@@ -1,3 +1,7 @@
-const BASE_URL = 'http://localhost:3001/api'
-// When using the BASE_URL
-// axios.get(`${BASE_URL}/someroute`)
+
+export const BASE_URL =
+  process.env.NODE_ENV === 'production'
+    ? `${window.location.origin}/api`
+    : 'http://localhost:3001/api'
+
+
