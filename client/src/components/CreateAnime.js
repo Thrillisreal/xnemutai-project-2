@@ -24,7 +24,6 @@ export default function CreateAnime(props) {
     makeAnime({...animeMade,[event.target.name]:event.target.value})
   }
 
-
   return (
     <div className="animeback">
       <div className="animetitle">
