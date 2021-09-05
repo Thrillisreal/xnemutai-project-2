@@ -45,7 +45,6 @@ const deleteAnime = async (req, res) => {
     }
   }
 
-
 module.exports = {
   createAnime,
   allAnime,
