@@ -1,7 +1,6 @@
 import {React, useState} from 'react'
 import axios from 'axios'
 
-
 export default function CreateAnime(props) {
   const [animeMade, makeAnime] = useState({
     img:'',
@@ -24,7 +23,6 @@ export default function CreateAnime(props) {
   const handleChange = (event) =>{
     makeAnime({...animeMade,[event.target.name]:event.target.value})
   }
-
 
 
   return (
