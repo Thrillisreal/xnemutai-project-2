@@ -28,15 +28,15 @@ const WatchList = () => {
   <ol>Xnemutai</ol>
   </nav>
 </div>
-      <h2 className='watchlist'>Watch List:</h2>
-    <section className="watchback">
+<h2 className='watchlist'>Watch List:</h2>
+  <section className="watchback">
       {animes.map((anime) => (
         <AnimeCard key={anime.id} {...anime} />
       ))}
-    </section>
+  </section>
 
-    <footer className="watchfooter">@Micah</footer>
-  </div>
+  <footer className="watchfooter">@Micah</footer>
+</div>
   
   
   )

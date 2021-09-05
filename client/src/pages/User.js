@@ -1,14 +1,11 @@
 import axios from 'axios'
 import {React, useState} from 'react'
 
-
-
 export default function UserName(props) {
 
   const [username, makeUsername] = useState({
     userName:''
     })
-
 
   const newUser = async (e) => {
     e.preventDefault()
@@ -20,11 +17,9 @@ export default function UserName(props) {
         props.history.push('/anime')
   }
 
-
   const handleChange = (event) =>{
     makeUsername({...username,[event.target.name]:event.target.value})
   }
-
 
 return(
   <div className="userContainer">
@@ -47,12 +42,10 @@ return(
         onChange={handleChange}
       />
     <button className='userButton'>Submit</button>
-
     </form>
     <footer className="animefooter">@Micah</footer>
     </div>
   </div>
-
 )
 
 }
