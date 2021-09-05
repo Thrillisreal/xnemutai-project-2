@@ -41,7 +41,6 @@ const deleteAnime = async (req, res) => {
         console.log('It works');
       })
    
-    //   return res.status(200).send('Anime deleted')
     } catch (error) {
       return res.status(500).json({ error: error.message })
     }
