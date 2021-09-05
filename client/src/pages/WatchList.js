@@ -22,12 +22,12 @@ const WatchList = () => {
 
 
   return (
-    <div>
-      <div>
-    <nav className="logo">
-      <ol>Xnemutai</ol>
-    </nav>
-    </div>
+<div>
+ <div>
+  <nav className="logo">
+  <ol>Xnemutai</ol>
+  </nav>
+</div>
       <h2 className='watchlist'>Watch List:</h2>
     <section className="watchback">
       {animes.map((anime) => (
