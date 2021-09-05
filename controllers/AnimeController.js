@@ -25,11 +25,7 @@ const allAnime = async (req,res)=>{
   }
 }
 
-// const deleteAnime = async (req, res) => {
-//   try {
-//     const deleted = await Anime.findByIdAndDelete(req.body.id)
-//     if (!deleted) throw new Error('Anime not found')
-//     return res.status(200).send('Anime deleted')
+
 //   } catch (error) {
 //     return res.status(500).json({ error: error.message })
 //   }
