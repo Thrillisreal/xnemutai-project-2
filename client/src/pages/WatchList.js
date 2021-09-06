@@ -3,8 +3,6 @@ import AnimeCard from '../components/AnimeCard'
 import axios from 'axios'
 
 
-
-
 const WatchList = () => {
   const [animes, setAnimes] = useState([])
 
