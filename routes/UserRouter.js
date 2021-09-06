@@ -9,9 +9,4 @@ UserRouter.get('/allUsers',UserController.allUsers)
 UserRouter.delete('/deleteUser',UserController.deleteUser)
 
 
-
-
-
-
-
 module.exports = UserRouter
