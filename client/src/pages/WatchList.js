@@ -18,9 +18,6 @@ const WatchList = () => {
     getAnimes()
   }, [])
 
-
-
-
   return (
 <div>
  <div>
