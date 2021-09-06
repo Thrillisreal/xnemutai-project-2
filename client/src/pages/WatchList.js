@@ -34,11 +34,8 @@ const WatchList = () => {
         <AnimeCard key={anime.id} {...anime} />
       ))}
   </section>
-
   <footer className="watchfooter">@Micah</footer>
-</div>
-  
-  
+</div> 
   )
 }
 
