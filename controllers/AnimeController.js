@@ -26,8 +26,6 @@ const allAnime = async (req,res)=>{
 }
 
 
-
-// }
 const deleteAnime = async (req, res) => {
     try {
       Anime.deleteOne({_id:req.params.id},(error)=>{
