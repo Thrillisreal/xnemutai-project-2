@@ -4,14 +4,10 @@ import axios from 'axios'
 
 
 export default function AnimeCard(props) {
-
   const deleteAnimeCard = (props)=>{
-  
    axios.delete(`http://localhost:3001/api/animes/${props}`)
-   
    .then(res=>{
-     console.log(res.data);
-    
+   console.log(res.data);
     })
     window.location.reload()
   }
