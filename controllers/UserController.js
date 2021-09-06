@@ -3,11 +3,8 @@ const { User } = require('../models')
 const createUser = async (req,res)=> {
   console.log(req.body);
   try{
-    //making new object
   const newUser = await new User(req.body)
-  //store it inside database
   await newUser.save()
-  //resolve
   return res.status(201).json(newUser)
   } catch(error){
   console.log(error)
