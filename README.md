@@ -37,19 +37,19 @@ A site where you can save/bookmark your favorite anime!
 
 ##### User Page
 
-![User](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblogs.columbian.com%2Fcat-tales%2Fwp-content%2Fuploads%2Fsites%2F43%2F2017%2F12%2FOrange-Cat.jpg&f=1&nofb=1)
+![User](images/Userpage.png)
 
 ---
 
 ##### Create Anime Card Page
 
-![AnimeCard](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupnorthpyrenees.com%2Fwp-content%2Fuploads%2F2019%2F09%2Freceived_2372823849623603.jpeg.jpg&f=1&nofb=1)
+![AnimeCard](images/Anime.png)
 
 ---
 
 ##### Watch List Page
 
-![WatchList](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblogs.columbian.com%2Fcat-tales%2Fwp-content%2Fuploads%2Fsites%2F43%2F2017%2F12%2FOrange-Cat.jpg&f=1&nofb=1)
+![WatchList](images/WatchList.png)
 
 ---
 
