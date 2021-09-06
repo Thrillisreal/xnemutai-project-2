@@ -67,9 +67,9 @@ height: 450px;
 }
 
 .animeback{
-background-image: url('https://www.fortressofsolitude.co.za/wp-content/uploads/2019/05/The-15-Most-Powerful-Anime-Characters-Of-All-Time-scaled.jpg');
-background-position: contain;
-background-repeat: no-repeat;
+  background-image: url('https://www.fortressofsolitude.co.za/wp-content/uploads/2019/05/The-15-Most-Powerful-Anime-Characters-Of-All-Time-scaled.jpg');
+  background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .form{
