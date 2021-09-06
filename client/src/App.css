@@ -30,11 +30,11 @@
 }
 
 .userform{
-display: block;
-justify-content: center;
-align-items: center;
-text-align: center;
-height: 450px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 450px;
 }
 
 
@@ -122,10 +122,8 @@ height: 450px;
   text-align: center;
 }
 
-
-/*watchlist*/
 .animeinfo{
- font-size: 20px;
+  font-size: 20px;
 }
 .animecard{
 

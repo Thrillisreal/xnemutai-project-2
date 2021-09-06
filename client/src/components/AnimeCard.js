@@ -13,10 +13,9 @@ export default function AnimeCard(props) {
   }
 
   return (
-
   <div className='anime-container'>
- <div className='animecard'>
- <div>
+<div className='animecard'>
+<div>
     <img src={props.img} alt='' />
 </div>
 <div className='animeinfo'>

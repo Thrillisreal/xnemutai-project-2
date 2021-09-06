@@ -35,7 +35,7 @@ export default function CreateAnime(props) {
   <div className='form'>
     <form onSubmit={setAnime} >
     <div>
-   <h3>Img Url:</h3>
+ <h3>Img Url:</h3>
    </div>
       <input className="animeinput"
         type="text"
