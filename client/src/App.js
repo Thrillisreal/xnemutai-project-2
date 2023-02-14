@@ -11,7 +11,7 @@ function App() {
 <div>
   <header>
   <Switch>
-  <Route exact path="/" component={User}/>
+  <Route exact className="Userpage" path="/" component={User}/>
   <Route exact path="/anime" component={Anime}/>
   <Route exact path="/watchlist" component={WatchList}/>
   </Switch>
