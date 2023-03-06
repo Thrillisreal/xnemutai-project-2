@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/xnemutai-project-2/static/css/main.6880eafd.chunk.css",
+    "main.js": "/xnemutai-project-2/static/js/main.fb5b517b.chunk.js",
+    "main.js.map": "/xnemutai-project-2/static/js/main.fb5b517b.chunk.js.map",
+    "runtime-main.js": "/xnemutai-project-2/static/js/runtime-main.0ba572ab.js",
+    "runtime-main.js.map": "/xnemutai-project-2/static/js/runtime-main.0ba572ab.js.map",
+    "static/js/2.a7d4ee1b.chunk.js": "/xnemutai-project-2/static/js/2.a7d4ee1b.chunk.js",
+    "static/js/2.a7d4ee1b.chunk.js.map": "/xnemutai-project-2/static/js/2.a7d4ee1b.chunk.js.map",
+    "index.html": "/xnemutai-project-2/index.html",
+    "static/css/main.6880eafd.chunk.css.map": "/xnemutai-project-2/static/css/main.6880eafd.chunk.css.map",
+    "static/js/2.a7d4ee1b.chunk.js.LICENSE.txt": "/xnemutai-project-2/static/js/2.a7d4ee1b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ba572ab.js",
+    "static/js/2.a7d4ee1b.chunk.js",
+    "static/css/main.6880eafd.chunk.css",
+    "static/js/main.fb5b517b.chunk.js"
+  ]
+}
